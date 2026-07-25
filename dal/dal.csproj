@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Implementations\SqlServer\AutorRepository.cs" />
+    <Compile Include="Implementations\SqlServer\LibroRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
