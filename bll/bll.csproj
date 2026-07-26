@@ -41,7 +41,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AutorService.cs" />
+    <Compile Include="LibroService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\dal\dal.csproj">
+      <Project>{8ed0f9ad-a8be-4bb1-a848-da365f19fc9b}</Project>
+      <Name>dal</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\domain\domain.csproj">
+      <Project>{6405ad61-d1d0-47d3-a3c1-5158a735d0be}</Project>
+      <Name>domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
